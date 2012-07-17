@@ -7,18 +7,35 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 gem 'thin'
-
+gem 'rails_admin'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'haml-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :test, :development do
+  gem 'rspec'
+  gem 'rspec-rails'
+end
+
+group :development do
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+  gem 'guard-rails_best_practices'
+end
+
+group :test do
+  gem 'nyan-cat-formatter'
+  gem 'shoulda-matchers'
 end
 
 gem 'jquery-rails'
@@ -37,3 +54,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+
+gem "devise"

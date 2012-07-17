@@ -1,0 +1,11 @@
+%h1 You Or Me
+
+- Kid.find_each do |kid|
+  .kid
+    .name
+      = kid.name
+    .address
+      .line1
+        = kid.address.line1
+      .location
+        = "#{kid.address.city}, #{kid.address.state} #{kid.address.zip}"
