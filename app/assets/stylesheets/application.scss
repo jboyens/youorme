@@ -11,3 +11,34 @@
  *= require_self
  *= require_tree .
 */
+
+@import "bootstrap";
+
+body > .container {
+  padding-top: 60px;
+}
+
+.kid {
+  margin-bottom: 20px;
+  background: $grayLighter;
+  border: 1px solid $tableBorder;
+  padding: 10px;
+
+  .kid-inner {
+    min-height: $baseLineHeight * 4;
+  }
+
+  .name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .actions {
+    margin-top: 10px;
+  }
+}
+
+.kid.inactive {
+  background: lighten($grayLighter, 4%);
+  color: $grayLight;
+}

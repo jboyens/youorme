@@ -1,0 +1,25 @@
+---
+faris:
+  id: 19
+  name: Faris
+  address_id: 
+  created_at: 2012-07-18 05:44:47.937749000 Z
+  updated_at: 2012-07-18 05:44:47.937749000 Z
+  active: false
+  pickup_id: 
+jayda:
+  id: 20
+  name: Jayda
+  address_id: 16
+  created_at: 2012-07-18 05:44:47.961721000 Z
+  updated_at: 2012-07-18 05:44:47.961721000 Z
+  active: true
+  pickup_id: 
+laila:
+  id: 21
+  name: Laila
+  address_id: 17
+  created_at: 2012-07-18 05:44:47.970507000 Z
+  updated_at: 2012-07-18 05:44:47.970507000 Z
+  active: true
+  pickup_id: 

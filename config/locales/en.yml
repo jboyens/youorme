@@ -3,3 +3,6 @@
 
 en:
   hello: "Hello world"
+  notifications:
+    pickup_set:
+      subject: "Congratulations! You're picking up %{kid}"

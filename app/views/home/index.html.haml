@@ -1,11 +1,17 @@
-%h1 You Or Me
-
-- Kid.find_each do |kid|
-  .kid
-    .name
-      = kid.name
-    .address
-      .line1
-        = kid.address.line1
-      .location
-        = "#{kid.address.city}, #{kid.address.state} #{kid.address.zip}"
+.container
+  .row
+    - Kid.find_each do |kid|
+      .kid.span3{:class => kid.active? ? "active" : "inactive"}
+        .kid-inner
+          .name= kid.name
+          - if kid.address.present?
+            .address
+              .line1= kid.address.line1
+              .location= "#{kid.address.city}, #{kid.address.state} #{kid.address.zip}"
+          - else
+            No address
+          .pickup= kid.pickup.try(:email) || "NO PICKUP"
+        .actions.pull-right
+          = form_for kid do |f|
+            = f.submit "Me", :class => "btn"
+            = f.submit "You", :class => "btn"

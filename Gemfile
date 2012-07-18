@@ -13,6 +13,7 @@ gem 'rails_admin'
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
+  gem 'bootstrap-sass', '~> 2.0.4.0'
   gem 'haml-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -24,6 +25,10 @@ end
 group :test, :development do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'fixture_builder'
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+  gem 'awesome_print'
 end
 
 group :development do
@@ -36,6 +41,7 @@ end
 group :test do
   gem 'nyan-cat-formatter'
   gem 'shoulda-matchers'
+  gem 'email_spec'
 end
 
 gem 'jquery-rails'

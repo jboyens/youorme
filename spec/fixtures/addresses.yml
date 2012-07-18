@@ -1,0 +1,19 @@
+---
+addresses_001:
+  id: 16
+  line1: 123 Main Street
+  line2: 
+  city: San Francisco
+  state: CA
+  zip: '94112'
+  created_at: 2012-07-18 05:44:47.954909000 Z
+  updated_at: 2012-07-18 05:44:47.954909000 Z
+addresses_002:
+  id: 17
+  line1: 123 Main Street
+  line2: 
+  city: San Francisco
+  state: CA
+  zip: '94112'
+  created_at: 2012-07-18 05:44:47.967925000 Z
+  updated_at: 2012-07-18 05:44:47.967925000 Z

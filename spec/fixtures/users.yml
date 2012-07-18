@@ -1,0 +1,29 @@
+---
+arshia:
+  id: 15
+  email: arshiakhan@gmail.com
+  encrypted_password: $2a$10$XaJ2aFTktzhsQKCa0/PbO.Bun87nCoq5sZumcqyps9IZJ3M7CjgFy
+  reset_password_token: 
+  reset_password_sent_at: 
+  remember_created_at: 
+  sign_in_count: 0
+  current_sign_in_at: 
+  last_sign_in_at: 
+  current_sign_in_ip: 
+  last_sign_in_ip: 
+  created_at: 2012-07-18 05:44:47.779792000 Z
+  updated_at: 2012-07-18 05:44:47.779792000 Z
+jr:
+  id: 16
+  email: jboyens@fooninja.org
+  encrypted_password: $2a$10$5El9.OxIeOD7hLRe1INaWelPgVVz1mMoW2zpEVGcyiCiHTdxESkz6
+  reset_password_token: 
+  reset_password_sent_at: 
+  remember_created_at: 
+  sign_in_count: 0
+  current_sign_in_at: 
+  last_sign_in_at: 
+  current_sign_in_ip: 
+  last_sign_in_ip: 
+  created_at: 2012-07-18 05:44:47.914307000 Z
+  updated_at: 2012-07-18 05:44:47.914307000 Z
